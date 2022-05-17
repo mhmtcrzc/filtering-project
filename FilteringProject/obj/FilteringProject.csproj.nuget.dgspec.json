@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mehmet/Downloads/FilteringProject/FilteringProject/FilteringProject.csproj": {}
+  },
+  "projects": {
+    "/home/mehmet/Downloads/FilteringProject/FilteringProject/FilteringProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mehmet/Downloads/FilteringProject/FilteringProject/FilteringProject.csproj",
+        "projectName": "FilteringProject",
+        "projectPath": "/home/mehmet/Downloads/FilteringProject/FilteringProject/FilteringProject.csproj",
+        "packagesPath": "/home/mehmet/.nuget/packages/",
+        "outputPath": "/home/mehmet/Downloads/FilteringProject/FilteringProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mehmet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.115.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
